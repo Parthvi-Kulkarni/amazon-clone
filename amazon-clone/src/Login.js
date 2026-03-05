@@ -10,18 +10,18 @@ function Login() {
     const [password, setPassword] = useState('');
 
     const signIn = e => {
-        e.preventDefault();
+        e.preventDefault(); // prevents page from refreshing
 
         auth
             .signInWithEmailAndPassword(email, password)
             .then(auth => {
-                navigate('/')
+                navigate.push('/')
             })
             .catch(error => alert(error.message))
     }
 
     const register = e => {
-        e.preventDefault();
+        e.preventDefault(); // prevents page from refreshing
 
         auth
             .createUserWithEmailAndPassword(email, password)

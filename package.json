@@ -1,5 +1,7 @@
 {
   "name": "root",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "react-currency-format": "^1.1.0"
+  }
 }

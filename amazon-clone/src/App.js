@@ -39,21 +39,10 @@ function App() {
       <Router>
         <Header/>
         <Routes>
-          <Route path="/checkout" element={
-            <>
-              <Checkout />
-            </>
-          } />
-          <Route path="/login" element={
-            <>
-              <Login />
-            </>
-          } />
-          <Route path="/" element={
-            <>
-              <Home />
-            </>
-          } />
+          <Route path="/checkout" element={<Checkout />} />
+          <Route path="/payment" element={<p>Payment Page Coming Soon...</p>} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/" element={<Home />} />
         </Routes>
       </Router>
     </div>

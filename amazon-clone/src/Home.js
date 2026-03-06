@@ -7,8 +7,8 @@ function Home() {
   return (
     <div className="home">
       <div className="home__container">
-        <BannerSlider />
-        <div className="home__row">
+          <BannerSlider />
+          <div className="home__row">
         <Product
             id="1"
             title="Smeg 50's Style Retro Citrus Juicer, CJF01NB, Navy Blue"

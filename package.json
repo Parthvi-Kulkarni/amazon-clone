@@ -2,6 +2,7 @@
   "name": "root",
   "private": true,
   "dependencies": {
-    "react-currency-format": "^1.1.0"
+    "react-currency-format": "^1.1.0",
+    "react-number-format": "^5.4.4"
   }
 }

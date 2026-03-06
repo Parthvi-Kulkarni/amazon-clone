@@ -13,7 +13,14 @@
     border: 1px solid;
     margin-top: 10px;
     border-color: #a88734 #9c7e31 #846a29;
+    border-radius: 12px;
     color: #111;
+}
+
+.checkoutProduct__button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    background-color: #a88734;
 }
 
 .checkoutProduct__image {
